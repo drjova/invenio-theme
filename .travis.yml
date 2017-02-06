@@ -31,6 +31,9 @@ language: python
 cache:
   - pip
 
+node_js:
+  - "6"
+
 env:
   - REQUIREMENTS=lowest
   - REQUIREMENTS=release
@@ -44,6 +47,7 @@ python:
 matrix:
   allow_failures:
     - python: pypy
+  fast_finish: true
 
 before_install:
   - "travis_retry pip install --upgrade pip setuptools py"
