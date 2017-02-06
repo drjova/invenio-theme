@@ -25,7 +25,6 @@
 """Invenio standard theme."""
 
 import os
-import sys
 
 from setuptools import find_packages, setup
 
@@ -66,7 +65,7 @@ install_requires = [
     'Flask-Breadcrumbs>=0.3.0',
     'Flask-Menu>=0.5.0',
     'invenio-assets>=1.0.0b6',
-    'invenio-i18n>=1.0.0b1',
+    'invenio-i18n>=1.0.0b2',
     'jsmin>=2.1.6',
 ]
 
